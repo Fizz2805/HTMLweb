@@ -1,0 +1,112 @@
+li {
+    float: left;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7A4988;
+   
+  }
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-right: 60px;
+    text-decoration: none;
+  }
+  li:hover {
+   background-color: #663046;
+  }
+
+  /* categories  */
+
+  .category-container {
+    display: flex; /* Use flexbox layout */
+}
+  .category {
+    border: 1px solid black; /* Border style */
+    padding: 110px; /* Padding around content */
+    margin-left: 275px;
+    margin-right: -210px; /* Spacing between categories */
+    display: inline-block; /* Display categories inline */
+    /*align-items: baseline; /* Align text at baseline */
+    /*align-self: flex-end;  Align text to the bottom */
+    /* background-image: url(img/hockey.jpg); */
+}
+
+#background-div {
+   
+    background-image: url('img/hockey.jpg'); 
+    background-size: cover; /* Cover the entire div with the background image */
+    background-position: center; /* Center the background image */
+}
+
+#football {
+    
+     background-image: url('img/foot.jpg'); 
+     background-size: cover; /* Cover the entire div with the background image */
+     background-position: center; /* Center the background image */
+ }
+ #tennis {
+    
+     background-image: url('img/badminton.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+     background-size: cover; /* Cover the entire div with the background image */
+     background-position: center; /* Center the background image */
+ }
+
+.flex-container {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+   /*  width: 300px; /* Adjust the width of the flex container */
+    height: 100px; /* Adjust the height of the flex container */
+ 
+
+     margin-top:-69.5%; 
+/* background-color:white;  */
+margin-left:100px; 
+width:330px; 
+height:880px; 
+/* margin-bottom: 20px; */
+margin-bottom:++;  
+margin-right:30px; 
+}
+
+
+.flex-container img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-height: 100%; /* Ensure the image does not exceed the container height */
+}
+
+
+/* dummy para */
+
+.set-margin{
+	margin-left:430px; 
+	margin-right:60px; 
+	 /* margin-top: --120px; */
+     margin-top: 100px;
+}
+
+.set-margin p{
+	background-image: url(img/foot.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+ 
+	
+}
+.main-content{
+text-align: center;
+ background-color:#663046;
+height:35px;
+color: white;
+}
+.set-margin p{
+	color:black;
+	}
+
+
